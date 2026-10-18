@@ -11,7 +11,7 @@ A man enters a village to rescue his captured wife from extraterrestrial authori
 | Developer | Muhammad Tayyab |
 | Progress | In development |
 | Tools / focus | Unity · C# · Blender |
-| Repository contents | Project documentation, repository configuration and a Unity project audit tool |
+| Repository contents | Project documentation, tooling and standalone Unity samples |
 
 ## Development direction
 
@@ -31,6 +31,10 @@ See the [media guide](./media/README.md) for the project captures to add.
 ## Developer tools
 
 The [Unity project audit](./tools/README.md) checks project structure and asset metadata before source import. It is a read-only Python tool with a regression test suite.
+
+## Unity samples
+
+The [objective and trigger sample](./UnitySamples/Objectives/README.md) includes two reusable C# components and five Edit Mode tests for prototyping objective completion. These are new standalone examples for future integration, separate from the game's existing implementation. Compilation and the Edit Mode tests still need verification in Unity.
 
 ## Source project
 

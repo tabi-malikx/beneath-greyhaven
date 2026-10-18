@@ -1,0 +1,7 @@
+{
+  "name": "Greyhaven.ObjectiveSample.EditorTests",
+  "references": ["Greyhaven.ObjectiveSample"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}
